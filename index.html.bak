@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+	<link href="styles/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <img src="images/firefox-icon.png" alt="My test image">
+	<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files">Dealing with files</a><br>
+	<p>My cat is <strong>very</strong> grumpy.</p>
+ <p>My cat is <strong>very grumpy.</p></strong>
+ <h1>My main title</h1>
+ <h2>My top level heading</h2>
+<h3>My subheading</h3>
+<h4>My sub-subheading</h4>
+<p>At Mozilla, we’re a global community of technologists, thinkers, and builders working together ... </p>
+<p>At Mozilla, we’re a global community of</p>
+
+<ul>
+  <li>technologists</li>
+  <li>thinkers</li>
+  <li>builders</li>
+</ul>
+<h2>To read List<h2>
+<ol>
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Using_the_W3C_DOM_Level_1_Core">To read about DOM</a><br>
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document">To read about Document This is important link</a><br>
+</ol>
+
+<p>working together ... </p>
+<a>Mozilla Manifesto</a><br>
+<a href="">Mozilla Manifesto</a><br>
+<a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a><br>
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML Basics</a><br>
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS basics</a><br>
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript basics</a><br>
+<h2>"Hello, World!" program</h2><br>
+<h2>Java<br>
+class Main {<br>
+ public static void main(String[] args) {<br>
+    System.out.println("Hello World!");<br>
+  }
+}</h2>
+<h2>JavaScript<br>
+console.log("Hello World!");<h2><br>
+<p>What happened? when javascript(main.js) is add<br>
+The heading text changed to Hello world! using JavaScript.(which is in head and in h1 My main title see in index.html line 13) <br>You did this by using a function called querySelector() to grab a reference to your heading,<br> and then store it in a variable called myHeading. <br>This is similar to what we did using CSS selectors. When you want to do something to an element, <br>you need to select it first.<br>
+
+Following that, the code set the value of the myHeading variable's textContent <br>property (which represents the content of the heading) to Hello world!.<p>
+<p>Document.querySelector()<br>
+The Document method querySelector() returns the first Element within <br>the document that matches the specified selector,<br> or group of selectors. If no matches are found, null is returned.<p>
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector">Document.querySelector()</a><br>
+<p>Go to Dodument href in above link and check about what is DOM, DOM tree etc<p>
+<p>The Document Object Model (DOM) is an application programming interface (API)<br> for HTML and XML documents. It defines the logical structure of documents and <br>the way a document is accessed and manipulated. In the DOM specification, the term "document" is used <p>
+
+<input type="button" value="Change this document." onclick="change()">
+<h2>Header</h2>
+<p>Paragraph</p>
+<script src="scripts/main.js">
+
+</script>
+
+  </body>
+</html> 
